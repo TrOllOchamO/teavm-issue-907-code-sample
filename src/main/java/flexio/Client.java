@@ -12,7 +12,7 @@ public class Client {
 
   @Export(name = "ensureCapacity")
   public static void ensureCapacity(int newImageSize) {
-    // runtime error when this function body isn't commendted
+    // runtime error when this function body isn't commented
     // unreachable executed
     Client.imageSize = newImageSize;
     if (Client.buffer.length < newImageSize) {
